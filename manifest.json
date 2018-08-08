@@ -1,0 +1,35 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "core/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/19.png",
+      "default_title": "__MSG_title__"
+   },
+   "content_scripts": [ {
+      "css": [ "css/vk.css" ],
+      "js": [ "core/style.js" ],
+      "matches": [ "*://vk.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "core/cs.js" ],
+      "matches": [ "*://vk.com/*" ]
+   } ],
+   "description": "__MSG_desc__",
+   "icons": {
+      "128": "img/128.png",
+      "48": "img/48.png",
+      "19": "img/19.png",
+      "16": "img/16.png"
+   },
+  "homepage_url": "https://sites.google.com/view/promo-extensions-welcome",
+  "default_locale": "en_US",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "contextMenus", "storage", "tabs", "*://vk.com/*" ],
+   "short_name": "__MSG_shortname__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2018.08.08.1",
+   "web_accessible_resources": [ "img/*" ]
+}

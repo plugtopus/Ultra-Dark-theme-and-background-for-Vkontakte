@@ -1,0 +1,32 @@
+﻿{
+   "desc": {
+      "message": "Switch to dark theme for Vkontakte in one click. UI color tuner Vkontakte. Background image or video Vkontakte"
+   },
+   "name": {
+      "message": "Ultra Dark theme and background for Vkontakte"
+   },
+   "shortname": {
+      "message": "VK Ultra Dark theme and background"
+   },
+   "title": {
+      "message": "Ultra Dark theme and background for VK"
+   },
+   "setAsBg": {
+      "message": "Set as background"
+   },
+   "popupTitle": {
+      "message": "Add background picture or video"
+   },
+   "popupSubHeader": {
+      "message": "Paste url"
+   },
+   "popupUrlExample": {
+      "message": "Example, https://youtu.be/1La4QzGeaaQ"
+   },
+   "popupBtnAdd": {
+      "message": "Add"
+   },
+   "popupBtnCancel": {
+      "message": "Cancel"
+   }
+}
